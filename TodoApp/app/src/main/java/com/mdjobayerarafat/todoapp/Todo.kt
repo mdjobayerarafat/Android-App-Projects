@@ -8,7 +8,7 @@ import java.util.Date
 data class Todo(
     var id: Int,
     var title : String,
-    var cratedAt : Date
+    var createdAt : Date
 )
 
 @RequiresApi(Build.VERSION_CODES.O)
